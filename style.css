@@ -283,3 +283,7 @@ main .insights .progress .number {
     justify-content: center;
     align-items: center;
 }
+main .insights small {
+    margin-top: 1.6rem;
+    display: block;
+}
