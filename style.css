@@ -116,6 +116,9 @@ th {
 .theme-toggler span {
     color: var(--color-dark);
 }
+.close span {
+    color: var(--color-dark);
+}
 .primary {
     color: var(--color-primary);
 }
