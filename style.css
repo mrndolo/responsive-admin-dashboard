@@ -113,6 +113,9 @@ b {
 th {
     color: var(--color-dark);
 }
+.theme-toggler span {
+    color: var(--color-dark);
+}
 .primary {
     color: var(--color-primary);
 }
