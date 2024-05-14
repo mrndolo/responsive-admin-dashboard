@@ -21,9 +21,9 @@ themeToggler.addEventListener('click', () =>{
     document.body.classList.toggle('dark-theme-variables')
 
     // The Long Way
-    // themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
-    // themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
+    themeToggler.querySelector('span:nth-child(1)').classList.toggle('active');
+    themeToggler.querySelector('span:nth-child(2)').classList.toggle('active');
 
     // or simply
-    themeToggler.querySelector('span').classList.toggle('active');
+    //themeToggler.querySelector('span').classList.toggle('active');
 })
