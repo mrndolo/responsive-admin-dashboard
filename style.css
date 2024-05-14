@@ -26,6 +26,16 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
+/*----------------------- DARK THEME VARAIBLES ----------------------*/
+.dark-theme-variables {
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
 /* ----- Global Styles -------- */
 * {
     margin: 0;
@@ -66,12 +76,15 @@ img {
 h1 {
     font-weight: 800;
     font-size: 1.8rem;
+    color: var(--color-dark);
 }
 h2 {
     font-size: 1.4rem;
+    color: var(--color-dark);
 }
 h3 {
     font-size: 0.87rem;
+    color: var(--color-dark);
 }
 h4 {
     font-size: 0.8rem;
@@ -95,6 +108,9 @@ p {
     color: var(--color-dark-variant);
 }
 b {
+    color: var(--color-dark);
+}
+th {
     color: var(--color-dark);
 }
 .primary {
